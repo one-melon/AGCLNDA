@@ -14,12 +14,12 @@ generators, which provide contrastive views for enhanced
 data augmentation. Comparative experiments demonstrate
 that AGCLNDA outperforms five other advanced methods. Case studies further validate AGCLNDA as an effective tool for predicting ncRNA-drug resistance associations.
 # Requirements
-- torch 1.8.1
-- python 3.7.16
-- numpy 1.21.6
-- pandas 1.3.5
-- scikit-learn 1.0.2
-- scipy 1.7.3
+- torch 1.11.0
+- python 3.9.19
+- numpy 1.26.4
+- pandas 2.2.2
+- scikit-learn 1.4.2
+- scipy 1.13.0
 
 # Data
 NoncoRNA [40] is an experimentally supported database
@@ -31,6 +31,13 @@ utilized the August 2023 update, downloadable from
 http://www.jianglab.cn/ncRNADrug. Merging these datasets
 and removing redundancies, we obtained 9,633 unique
 ncRNA-drug resistance association pairs for 912 ncRNAs and 374 drugs.
+
+# Project structure
+Datasets/mydata1: dataset
+model.py: model related code
+DataHandler.py:data related code
+main.py: main function
+
 # Run the demo
 ```
 python main.py
