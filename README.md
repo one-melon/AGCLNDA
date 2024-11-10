@@ -34,8 +34,11 @@ ncRNA-drug resistance association pairs for 912 ncRNAs and 374 drugs.
 
 # Project structure
 Datasets/mydata1: dataset
+
 model.py: model related code
+
 DataHandler.py:data related code
+
 main.py: main function
 
 # Run the demo
